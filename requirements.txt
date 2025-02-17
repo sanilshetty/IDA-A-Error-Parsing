@@ -3,3 +3,4 @@ pandas
 re
 io
 xlsxwriter
+numpy
