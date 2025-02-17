@@ -50,9 +50,9 @@ def format_file(file, filename):
 
 
 # Streamlit UI
-st.title("Log File Formatter")
+st.title("Error Log Formatter")
 
-uploaded_file = st.file_uploader("Upload a log file", type=["txt"])
+uploaded_file = st.file_uploader("Upload a file", type=["txt"])
 
 if uploaded_file:
     st.success(f"File '{uploaded_file.name}' uploaded successfully!")
